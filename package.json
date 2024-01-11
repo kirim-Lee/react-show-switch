@@ -1,8 +1,9 @@
 {
   "name": "kirim-react-show-switch",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "React condition show / switch",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "tsc": "tsc"
@@ -16,6 +17,14 @@
   "devDependencies": {
     "@types/react": "^18.2.47",
     "typescript": "^5.3.3"
+  },
+  "tsup": {
+    "entry": [
+      "src/index.ts"
+    ],
+    "splitting": false,
+    "sourcemap": true,
+    "clean": true
   },
   "repository": {
     "type": "git",
