@@ -8,7 +8,7 @@
 ### Show
 
 ```
-import { Show } from '@kirim/show-switch';
+import { Show } from 'kirim-react-show-switch';
 
 const Component = () => {
   const [show, setShow] = useState(false)
@@ -29,7 +29,7 @@ export defaul Component;
 ### Swtich
 
 ```
-import { Switch } from '@kirim/show-switch';
+import { Switch } from 'kirim-react-show-switch';
 
 const Component = () => {
   const [show, setShow] = useState(false)

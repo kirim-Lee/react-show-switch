@@ -1,5 +1,5 @@
 {
-  "name": "@kirim/react-show-switch",
+  "name": "kirim-react-show-switch",
   "version": "1.0.0",
   "description": "React condition show / switch",
   "main": "dist/index.js",
@@ -20,5 +20,6 @@
   "repository": {
     "type": "git",
     "url": ""
-  }
+  },
+  "private": false
 }
