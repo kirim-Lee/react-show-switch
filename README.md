@@ -3,11 +3,11 @@
 - determine show whether condition with React and NextJS
 - can use client side also server side
 
-## Use
+## Usage
 
 ### Show
 
-```
+```tsx
 import { Show } from 'kirim-react-show-switch';
 
 const Component = () => {
@@ -26,9 +26,9 @@ const Component = () => {
 export defaul Component;
 ```
 
-### Swtich
+### Switch
 
-```
+```tsx
 import { Switch } from 'kirim-react-show-switch';
 
 const Component = () => {
